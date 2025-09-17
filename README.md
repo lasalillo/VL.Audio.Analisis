@@ -1,2 +1,2 @@
-# VL.Audio.Analisis
-Audio analisis nodes
+# VL.Audio.Analysis
+Audio analysis nodes
