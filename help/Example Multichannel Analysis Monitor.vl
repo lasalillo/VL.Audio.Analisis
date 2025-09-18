@@ -47,6 +47,7 @@
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="AudioAnalysisUI" />
             </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
             <Pin Id="DDDCco1M4zkPbEs4sKxAJR" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="CGlaT0UVEmsLLEb1wZ6NWt" Name="Input" Kind="InputPin" />
             <Pin Id="A5FW09QyikyOlmCAJA1CIi" Name="Output" Kind="OutputPin" />
@@ -178,7 +179,7 @@
               <Choice Kind="TypeFlag" Name="Float32" />
             </p:TypeAnnotation>
           </Pad>
-          <Pad Id="KZYTVFvSXiwMZ0fOjtyVKb" Comment="Scope Enable" Bounds="260,591,35,15" ShowValueBox="true" isIOBox="true" Value="True">
+          <Pad Id="KZYTVFvSXiwMZ0fOjtyVKb" Comment="Scope Enable" Bounds="260,591,35,15" ShowValueBox="true" isIOBox="true" Value="False">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
             </p:TypeAnnotation>
@@ -390,7 +391,7 @@
               <Link Id="QJTGl0edRBQPk916WN3cTZ" Ids="Vb8CJZyABhJNicJSkSpHWa,Myk3PT9aPE0LSFrV1w30tc" IsHidden="true" />
             </Patch>
           </Node>
-          <Pad Id="RvvDoW2C4iWMWWWUpjWWmP" Comment="Bin Count" Bounds="419,310,53,15" ShowValueBox="true" isIOBox="true" Value="512">
+          <Pad Id="RvvDoW2C4iWMWWWUpjWWmP" Comment="Bin Count" Bounds="419,310,53,15" ShowValueBox="true" isIOBox="true" Value="1024">
             <p:TypeAnnotation LastCategoryFullName="VL.Audio" LastDependency="VL.Audio.vl">
               <Choice Kind="TypeFlag" Name="FFTBinCountEnum" />
             </p:TypeAnnotation>
