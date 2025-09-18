@@ -4158,5 +4158,5 @@
     </Node>
   </Patch>
   <NugetDependency Id="FDrtMWpIL6AP768rdfa0My" Location="VL.Skia" Version="2025.7.1-0013-g8fcece0df9" />
-  <DocumentDependency Id="GNh1h42Vnl2Oq0fpzZYn8Q" Location="./VL.Audio.Analysis.vl" />
+  <NugetDependency Id="CAyDa3iCd4RNuLRv0R3gft" Location="VL.Audio.Analysis" Version="1.0.3" />
 </Document>

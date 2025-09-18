@@ -72,7 +72,7 @@
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
             <Pin Id="GcxONK3T9KLNiwFBkf9hgT" Name="Node Context" Kind="InputPin" IsHidden="true" />
-            <Pin Id="B6aESOwzfjtQWsYO7mX2k5" Name="Bounds" Kind="InputPin" DefaultValue="66, 218, 696, 275" IsHidden="true" />
+            <Pin Id="B6aESOwzfjtQWsYO7mX2k5" Name="Bounds" Kind="InputPin" DefaultValue="66, 218, 696, 274" IsHidden="true" />
             <Pin Id="NtlgSSxQj1PQGzDAwNnaJx" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="STbpc1DOTeVMPex3yDW9ye" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
             <Pin Id="M2QSaEoBNXJNenkQ3yrTfj" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
@@ -439,7 +439,7 @@
     </Node>
   </Patch>
   <DocumentDependency Id="DNn3QrYoXW2MFBpNotAbyj" Location="../VL.Audio.Analysis.UI.vl" />
-  <DocumentDependency Id="VGmGD8uYbfBLybooRqwVxh" Location="../VL.Audio.Analysis.vl" />
   <NugetDependency Id="Pqg4gI0IYMFOqzqzCwHX3H" Location="VL.Audio" Version="1.9.14" />
   <NugetDependency Id="T1REN2F1M9wQJpRYbn6YgK" Location="VL.Skia" Version="2025.7.1-0013-g8fcece0df9" />
+  <NugetDependency Id="LbraHgwGeqRNuOobKAcaDe" Location="VL.Audio.Analysis" Version="1.0.3" />
 </Document>
